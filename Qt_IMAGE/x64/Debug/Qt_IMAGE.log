@@ -1,9 +1,0 @@
-﻿  Uic'ing Qt_IMAGE.ui...
-  Rcc'ing Qt_IMAGE.qrc...
-  Moc'ing Qt_IMAGE.h...
-   RCC: Warning: No resources in 'E:\Git\QT_LoadRGBImage\Qt_IMAGE\Qt_IMAGE.qrc'.
-  main.cpp
-  Qt_IMAGE.cpp
-  qrc_Qt_IMAGE.cpp
-  moc_Qt_IMAGE.cpp
-  Qt_IMAGE.vcxproj -> E:\Git\QT_LoadRGBImage\x64\Debug\Qt_IMAGE.exe
