@@ -11,10 +11,12 @@ Qt_IMAGE::Qt_IMAGE(QWidget *parent)
 
 void Qt_IMAGE::Load()
 {
-	std::string name = "E:\\Git\\LZStudy\\VSBuild2.0\\rundir\\Debug\\bin\\32bit\\ConvertYUY2toRGB24";
+	//std::string name = "E:\\Git\\LZStudy\\VSBuild2.0\\rundir\\Debug\\bin\\32bit\\ConvertYUY2toRGB24";
 	//std::string name = "E:\\QTVS\\Qt_IMAGE\\Win32\\Debug\\RGB";
+	//std::string name = "E:\\Github\\XJGARSDKDemoApp-Win64\\XJGARFaceSDKProjectDemo-win64\\VS2017\\Aopencv";
+	//std::string name = "E:\\SVN\\RTS_Tch\\VS2017\\rundir\\Debug\\bin\\64bit\\DshowData";
+	std::string name = "E:\\SVN\\RTS_Tch\\VS2017\\rundir\\Debug\\bin\\64bit\\DshowDataBGR";
 
-	
 	FILE *m_WaveFile = fopen(name.c_str(), "r");
 	unsigned char *pData = new unsigned char[1280 * 720 * 3];
 	fread(pData, 1, 1280*720*3, m_WaveFile);

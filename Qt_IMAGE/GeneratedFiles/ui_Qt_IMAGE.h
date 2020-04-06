@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'Qt_IMAGE.ui'
 **
-** Created by: Qt User Interface Compiler version 5.7.1
+** Created by: Qt User Interface Compiler version 5.11.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,10 +10,7 @@
 #define UI_QT_IMAGE_H
 
 #include <QtCore/QVariant>
-#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QStatusBar>
@@ -55,8 +52,8 @@ public:
 
     void retranslateUi(QMainWindow *Qt_IMAGEClass)
     {
-        Qt_IMAGEClass->setWindowTitle(QApplication::translate("Qt_IMAGEClass", "Qt_IMAGE", Q_NULLPTR));
-        label->setText(QApplication::translate("Qt_IMAGEClass", "TextLabel", Q_NULLPTR));
+        Qt_IMAGEClass->setWindowTitle(QApplication::translate("Qt_IMAGEClass", "Qt_IMAGE", nullptr));
+        label->setText(QApplication::translate("Qt_IMAGEClass", "TextLabel", nullptr));
     } // retranslateUi
 
 };
