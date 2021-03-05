@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'Qt_IMAGE.ui'
 **
-** Created by: Qt User Interface Compiler version 5.11.2
+** Created by: Qt User Interface Compiler version 5.12.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -30,19 +30,19 @@ public:
     void setupUi(QMainWindow *Qt_IMAGEClass)
     {
         if (Qt_IMAGEClass->objectName().isEmpty())
-            Qt_IMAGEClass->setObjectName(QStringLiteral("Qt_IMAGEClass"));
+            Qt_IMAGEClass->setObjectName(QString::fromUtf8("Qt_IMAGEClass"));
         Qt_IMAGEClass->resize(867, 584);
         centralWidget = new QWidget(Qt_IMAGEClass);
-        centralWidget->setObjectName(QStringLiteral("centralWidget"));
+        centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         label = new QLabel(centralWidget);
-        label->setObjectName(QStringLiteral("label"));
+        label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(80, 60, 691, 411));
         Qt_IMAGEClass->setCentralWidget(centralWidget);
         mainToolBar = new QToolBar(Qt_IMAGEClass);
-        mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
+        mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
         Qt_IMAGEClass->addToolBar(Qt::TopToolBarArea, mainToolBar);
         statusBar = new QStatusBar(Qt_IMAGEClass);
-        statusBar->setObjectName(QStringLiteral("statusBar"));
+        statusBar->setObjectName(QString::fromUtf8("statusBar"));
         Qt_IMAGEClass->setStatusBar(statusBar);
 
         retranslateUi(Qt_IMAGEClass);

@@ -36,9 +36,15 @@
     <ClCompile Include="Qt_IMAGE.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TestWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="Qt_IMAGE.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="TestWidget.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
